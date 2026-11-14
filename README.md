@@ -1,4 +1,9 @@
-# Orbit — NextPlay Kanban Assessment
+# Orbit — Project Management Dashboard
+## Live Demo
+
+[Launch Orbit](https://orbit-nu-murex.vercel.app/)
+
+Explore the live application using a private guest workspace. No account registration is required.
 
 A responsive, full-stack Kanban board built with React, TypeScript, dnd-kit, and Supabase.
 
@@ -17,7 +22,7 @@ A responsive, full-stack Kanban board built with React, TypeScript, dnd-kit, and
 3. Create a Supabase project at https://supabase.com.
 4. In **Authentication → Providers**, enable **Anonymous Sign-ins**.
 5. In **SQL Editor**, execute `supabase/schema.sql` once on a fresh project.
-6. Copy `.env.example` to `.env` and replace the placeholders with your Supabase project URL and **public/publishable anon key**. Never put a service-role or secret key in the frontend.
+6. Create a `.env` file containing `VITE_SUPABASE_URL` and `VITE_SUPABASE_ANON_KEY` using your own Supabase project credentials.
 7. Run `npm run dev` and open the printed local URL.
 8. Run `npm run build` to check the production build.
 
