@@ -39,6 +39,3 @@ Import the GitHub repository into Vercel, set `VITE_SUPABASE_URL` and `VITE_SUPA
 - Open in a different private window/browser: tasks from the first session are NOT visible.
 - Resize to mobile: layout is usable and tasks can be moved using touch.
 - Disconnect the network and attempt to save: an error is displayed.
-
-## Submission notes
-The original assessment document is confidential and must not be published. The final assessment document should include the live URL, repository URL, schema, local setup instructions, advanced features, design choices, and tradeoffs. The working demo can be listed on a resume.
